@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+
+}
+
+body {
+    background-color: gray;
+}
+
+@media (max-width:768px) {
+
+    #toptext {
+        background-color: white;
+        font-size: 2em;
+    }
+
+    #toptext + div {
+        height: 300px;
+        border: 1px groove black;
+        box-shadow: -10px -10px 10px black, 10px 10px 10px black;
+    }
+
+    #toptext + div img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    }
+
+    #toptext + div h2 {
+        text-align: center;
+    }
+
+    .avatar {
+        border: 1px groove black;
+        box-shadow: -10px -10px 10px black, 10px 10px 10px black;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+sdgrg
+    .avatar h2 {
+        text-align: center;
+    }
+
+    .avatar h4 {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .avatar img {
+        vertical-align: middle;
+        margin-left: 50px;
+    }
+
+    .womanimg {
+        text-align: center;
+
+    }
+
+    .womanimg img {
+
+        width: 767px;
+    }
+
+    .womanimg p {
+        text-align: justify;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .once-btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        background-color: transparent;
+        border: 1px solid black;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .posts button{
+        display: block;
+         margin: 0 auto;
+        margin-top: 10px;
+        background-color: transparent;
+        border: 1px solid black;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+      .post {
+   margin-left:200px;
+          margin-top: 30px;
+    }
+
+    .post div {
+        background-color: white;
+        height: 40px;
+        width:350px;
+    }
+
+    .post div p {
+        margin-left: 50px;
+    }
+
+    .post div img {
+        margin-left: 170px;
+        vertical-align: middle;
+    }
+        .con-post {
+        margin-left: 10px;
+
+    }
+    .other-page {
+        margin-left: 100px;
+    }
+
+    .other-page h3 img {
+        width: 100px;
+        height: 100px;
+        vertical-align: top;
+        margin-right: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px) {
+    #toptext {
+        background-color: white;
+        font-size: 2em;
+    }
+
+    #toptext + div {
+        height: 300px;
+        border: 1px groove black;
+        box-shadow: -10px -10px 10px black, 10px 10px 10px black;
+    }
+
+    #toptext + div img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    }
+
+    #toptext + div h2 {
+        text-align: center;
+    }
+
+    .avatar {
+        border: 1px groove black;
+        box-shadow: -10px -10px 10px black, 10px 10px 10px black;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .avatar h2 {
+        text-align: center;
+    }
+
+    .avatar h4 {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .avatar img {
+        vertical-align: middle;
+        margin-left: 50px;
+    }
+
+    .womanimg {
+        text-align: center;
+
+    }
+
+    .womanimg p {
+        text-align: justify;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .once-btn {
+        margin-left: 100px;
+        margin-top: 20px;
+        background-color: transparent;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .posts {
+        margin-left: 70px;
+    }
+
+    .posts button {
+        margin-left: 30px;
+        margin-top: 20px;
+        background-color: transparent;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .con-post {
+        margin-left: 100px;
+
+    }
+
+    .post {
+        float: left;
+        margin: 30px;
+    }
+
+    .post div {
+        background-color: white;
+        height: 40px;
+    }
+
+    .post div p {
+        margin-left: 50px;
+    }
+
+    .post div img {
+        margin-left: 170px;
+        vertical-align: middle;
+    }
+
+    .other-page {
+        margin-left: 130px;
+    }
+
+    .other-page h3 img {
+        width: 100px;
+        height: 100px;
+        vertical-align: top;
+        margin-right: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1024px) and (max-width:1280px) {
+    *{
+        list-style: none;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    section:first-child{
+        display: none;
+    }
+    main div{
+        float: left;
+    }
+    main div:first-child{
+        background-color: white;
+        height: 50px;
+        
+    }
+        main div:last-child{
+        background-color: red;
+        height:50px;
+          
+    }
+    main div:last-child img{
+        display: block;
+        margin: 0 auto;
+        width: 45px;
+    }
+    main div:first-child ul li{
+        float: left;
+        margin: 10px;
+        padding: 3px;
+        font-size: 23px;
+    }
+    main + div {
+        height: 300px;
+        border: 1px groove black;
+        box-shadow: -10px -10px 10px black, 10px 10px 10px black;
+    }
+
+   main + div img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    }
+
+    main + div h2 {
+        text-align: center;
+    }
+    .two-peace{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .two-peace div{
+        float: left;
+        margin-top: 20px;
+    }
+    .two-peace div:first-child{
+        height: 200px;
+        background-color: aqua;
+        
+    }
+    .two-peace div:last-child{
+        height: 200px;
+        background-color: red;
+    }
+    .two-peace div:first-child h3{
+        margin-left: 30px;
+        color: red;
+    }
+    article{
+       margin-top: 5px;
+     }
+    article>div{
+      background-color: aliceblue;
+         margin-left: 50px;
+        margin-right: 50px;
+        height: 500px;
+     }
+    article>div img{
+        display: block;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+    article>div p{
+        margin-left: 100px;
+        margin-right: 30px;
+    }
+    article>div button{
+        display: block;
+        padding: 10px;
+        background-color: transparent;
+        border: 1px groove black;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .row-btn{
+        margin-left: 40px;
+        margin-top: 20px;
+    }   
+    .row-btn button{
+        margin-left: 10px;
+        padding: 10px;
+        background-color: transparent;
+        border:1px groove black;
+    }
+    hr{
+        margin: 10px;
+    }
+    .posts{
+        margin-top: 45px;
+       margin-left: 230px;
+    }
+    .posts div {
+	float: left;
+    height: 250px;
+    margin-left: -20    
+    }
+    .posts div img{
+margin-top: -40px;
+    }
+       .posts div p{
+float: left
+    }
+    .post-image{
+        padding-top:0; 
+        width: 100%;
+        border-radius: 20px;
+    }
+}
