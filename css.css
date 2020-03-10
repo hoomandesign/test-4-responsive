@@ -5,12 +5,14 @@
     font-family: tahoma;
 
 }
-
 body {
     background-color: gray;
 }
 
 @media (max-width:768px) {
+    .section2,.section3{
+	display: none;
+}
 
     #toptext {
         background-color: white;
@@ -160,7 +162,10 @@ sdgrg
 
 
 
-@media(min-width:768px) {
+@media(min-width:768px) and (max-width:1024px) {
+.section2, .section3{
+	display: none;
+}
     #toptext {
         background-color: white;
         font-size: 2em;
@@ -286,6 +291,7 @@ sdgrg
 
 
 @media (min-width:1024px) and (max-width:1280px) {
+
     *{
         list-style: none;
     }
@@ -301,7 +307,7 @@ sdgrg
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-    section:first-child{
+    section:first-child,.section3{
         display: none;
     }
     main div{
@@ -414,14 +420,185 @@ sdgrg
     margin-left: -20    
     }
     .posts div img{
-margin-top: -40px;
+        margin-top: -40px;
     }
-       .posts div p{
-float: left
+    .posts div p{
+        float: left
     }
     .post-image{
         padding-top:0; 
         width: 100%;
         border-radius: 20px;
+    }
+    .other-page {
+        margin-left: 50px
+    }
+    .other-page img{
+	width: 120px;
+        height: 120px;
+        vertical-align: middle;
+        margin-right: 30px;
+}
+}
+
+
+
+
+
+
+
+
+@media (min-width:1280px){
+    *{
+        list-style: none;
+    }
+.section2,.section1 {
+	display: none;
+}
+    .col-xl-1 {width: 8.33%;}
+    .col-xl-2 {width: 16.66%;}
+    .col-xl-3 {width: 25%;}
+    .col-xl-4 {width: 33.33%;}
+    .col-xl-5 {width: 41.66%;}
+    .col-xl-6 {width: 50%;}
+    .col-xl-7 {width: 58.33%;}
+    .col-xl-8 {width: 66.66%;}
+    .col-xl-9 {width: 75%;}
+    .col-xl-10 {width: 83.33%;}
+    .col-xl-11 {width: 91.66%;}
+    .col-xl-12 {width: 100%;}
+        main div{
+        float: left;
+    }
+    main div:first-child{
+        background-color: white;
+        height: 50px;
+        
+    }
+        main div:last-child{
+        background-color: red;
+        height:50px;
+          
+    }
+    main div:last-child img{
+        display: block;
+        margin: 0 auto;
+        width: 45px;
+    }
+    main div:first-child ul li{
+        float: left;
+        margin: 10px;
+        padding: 3px;
+        font-size: 23px;
+    }
+    .top-img {
+        margin-top: 50px;
+        margin-left: 7%;
+    }
+    .top-img img{
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: block;
+    margin-left: 27%;
+       
+    }
+    .top-img h1{
+        margin-left:27%;
+        max-width: 180px;
+        font-size: 2em;
+    }
+    .top-img p{
+        margin-left:27%;
+        width: 500px;
+        font-size: 2em;
+    }
+    .con-post {
+	margin-left: 14%;
+   
+}
+    .post {
+	  margin-top: 30px;
+}
+.post div {
+	background-color: white;
+    width: 350px;
+    height: 80px;
+  
+}
+    .post div img{
+        float: right;
+       margin-top: 10px;
+        margin-right: 30px;
+        border-radius: 30px;
+    }
+    .post div p{
+        font-size: 2em;
+        margin-left: 10px;
+        padding-top:15px;
+    }
+        .other-page {
+        margin-left: 28%;
+            margin-top: 20px
+    }
+    .other-page img{
+	width: 120px;
+        height: 120px;
+      float: left;
+}
+    .other-page h3{
+       padding-top:10px;
+    }
+
+    .lft-clmn{
+      float: left;
+    }
+    .right-clmn{
+        float: right;
+        margin-right: 300px;
+        margin-top: 50px;
+    }
+    .big-row{
+        float: left;
+        background-color:yellow;
+        height: 285px;
+        margin-top: 30px;
+    }
+    .big-row h1{
+        font-size: 2em;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .big-row p{
+          font-size: 2em;
+        text-align: center;
+    }
+    .mini-row {
+        float: right;
+        background-color:aqua;
+        height: 285px;
+         margin-top: 30px;
+    }
+    .test{
+        background-color: white;
+        margin-top: 5px;
+    }
+    .test img{
+        display: block;
+        margin: 0 auto;
+        padding-top: 30px;
+         
+    }
+    .test p{
+        width: 80%;
+        font-size: 2em;
+        margin-top: 50px;
+        margin-left: 300px;
+    }
+    .test button{
+        margin-left: 300px;
+        margin-top: 50px;
+        padding: 10px;
+        background:transparent;
+        border: 1x groove lime;
+        margin-bottom: 30px;
     }
 }
